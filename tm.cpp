@@ -62,14 +62,10 @@ void errorHandler (int errCode)
 
 int main(int argc, char* argv[])
 {
-
-	
-
 	int scale, lvl, threads = 2, smoothIter = 0, extraIter = 0;
 	double elapsed_time;
 	char * srcName = NULL, * outName = "out.bmp";
 	CvMat * src = NULL, * lines = NULL, * tmp = NULL;
-	
 
 	CV_FUNCNAME("Terrain modeller");
 	__CV_BEGIN__
